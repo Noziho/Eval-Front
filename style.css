@@ -29,16 +29,18 @@ body {
 }
 
 .container-img {
+    position: absolute;
     width: 29%;
     display: inline-block;
-    border: solid 1px red;
+    right: 12%;
+
 }
 .container-img img{
-    width: 93%;
+    width: 90%;
 }
 
 .sous-block-title {
-    width: 50%;
+    width: 50.2%;
     background: #0ab45f;
     float: left;
     display: inline-block;
@@ -55,6 +57,7 @@ body {
     background: orange;
     display: inline-block;
     height: 20rem;
+    margin-left: 0.3rem;
 }
 
 .sous-block-1 h1 {
@@ -93,6 +96,36 @@ button {
     color: white;
 }
 
+button+button {
+    margin-left: 2%;
+}
+
+.bouton{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 10%;
+    background: rgba(34, 34, 34, 0.38);
+    height: 7%;
+    display: inline-block;
+    top: 29rem;
+    text-align: center;
+    left: 2%;
+}
+
+.bouton2 {
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 10%;
+    background: rgba(34, 34, 34, 0.38);
+    height: 7%;
+    display: inline-block;
+    top: 29rem;
+    text-align: center;
+    right: 12%;
+}
+
 .center-margin {
     text-align: center;
     margin-top: 12rem;
@@ -103,44 +136,49 @@ button {
     position: absolute;
     top: 8rem;
     right: 75rem;
-    color: black;
+    color: white;
 }
 
 .fa-battery-half {
     position: absolute;
     top: 30rem;
     left: 27rem;
-    color: black;
+    color: white;
 }
 
 .fa-book {
     position: absolute;
     top: 30rem;
     left: 52rem;
-    color: black;
+    color: white;
 }
 
 .fa-edit {
     position: absolute;
     top: 30rem;
     left: 77rem;
-    color: black;
+    color: white;
 }
 .fa-plus{
     position: absolute;
     top: 50rem;
     left: 27rem;
-    color: black;
+    color: white;
 }
 .fa-paper-plane {
     position: absolute;
     top: 50rem;
-    left: 51rem;
-    color: black;
+    left: 53rem;
+    color: white;
 }
 .fa-desktop {
     position: absolute;
     top: 50rem;
     left: 77rem;
-    color: black;
+    color: white;
+}
+
+
+.fa-arrow-left, .fa-arrow-right {
+    padding-top: 1.5rem;
 }
