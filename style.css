@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    width: 65%;
+    display: inline-block;
+    float: left;
+}
+
+#premier-block {
+    width: 100%;
+    margin-left: 15%;
+}
+
+.container-img {
+    width: 29%;
+    display: inline-block;
+    border: solid 1px red;
+}
+.container-img img{
+    width: 93%;
+}
+
+.sous-block-title {
+    width: 50%;
+    background: #0ab45f;
+    float: left;
+    display: inline-block;
+    height: 20rem;
+    padding: 1rem;
+}
+.sous-block-title p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.sous-block-1 {
+    width: 25%;
+    background: orange;
+    display: inline-block;
+    height: 20rem;
+}
+
+.sous-block-1 h1 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.sous-block-x3 {
+    display: inline-block;
+    width: 25%;
+    background: violet;
+    height: 20rem;
+}
+
+.color-blue {
+    background: dodgerblue;
+}
+
+.color-red {
+    background: indianred;
+}
+
+.color-green {
+    background: #0ab45f;
+}
+
+.color-orange {
+    background: #ff6200;
+}
+
+button {
+    margin-top: 4rem;
+    border: white 1px solid;
+    padding: 1rem;
+    background: #0ab45f;
+    color: white;
+}
+
+.center-margin {
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 1.4rem;
+}
+
+.fa-id-card {
+    position: absolute;
+    top: 8rem;
+    right: 75rem;
+    color: black;
+}
+
+.fa-battery-half {
+    position: absolute;
+    top: 30rem;
+    left: 27rem;
+    color: black;
+}
+
+.fa-book {
+    position: absolute;
+    top: 30rem;
+    left: 52rem;
+    color: black;
+}
+
+.fa-edit {
+    position: absolute;
+    top: 30rem;
+    left: 77rem;
+    color: black;
+}
+.fa-plus{
+    position: absolute;
+    top: 50rem;
+    left: 27rem;
+    color: black;
+}
+.fa-paper-plane {
+    position: absolute;
+    top: 50rem;
+    left: 51rem;
+    color: black;
+}
+.fa-desktop {
+    position: absolute;
+    top: 50rem;
+    left: 77rem;
+    color: black;
+}
