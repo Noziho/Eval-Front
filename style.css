@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 html {
     font-size: 62.5%;
 }
@@ -7,199 +6,178 @@ html {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    background: lightgrey;
+    background: darkgray;
     font-family: 'Open Sans', sans-serif;
-    color: white;
-    padding: 1rem;
+    padding-top: 2rem;
 }
 
 .container {
-    width: 65%;
+    width: 80%;
+    margin: auto;
+    font-size: 0;
+}
+
+#first-div {
     display: inline-block;
+    height: 23rem;
+    width: 48rem;
     float: left;
+    background: #059f5f;
 }
 
-#premier-block {
-    width: 100%;
-    margin-left: 15%;
+#first-div p {
+    font-size: 2.4rem;
+    color: white;
+    font-weight: bold;
+    padding: 3rem;
 }
-
-.container-img {
-    position: absolute;
-    width: 29%;
+.same-size {
     display: inline-block;
-    right: 12%;
-
-}
-.container-img img{
-    width: 90%;
-}
-
-.sous-block-title {
-    width: 50.2%;
-    background: #0ab45f;
-    float: left;
-    display: inline-block;
-    height: 20rem;
-    padding: 1rem;
-}
-.sous-block-title p {
-    margin-top: 1rem;
-    font-size: 1.4rem;
-}
-
-.sous-block-1 {
-    width: 25%;
+    width: 24rem;
+    height: 23rem;
     background: orange;
-    display: inline-block;
-    height: 20rem;
-    margin-left: 0.3rem;
+
 }
 
-.sous-block-1 h1 {
-    text-align: center;
-    margin-top: 10rem;
+img, .float-right{
+    float: right;
+}
+img {
+    position: relative;
+    right: 4.8rem;
+    height: 69rem;
 }
 
-.sous-block-x3 {
-    display: inline-block;
-    width: 25%;
-    background: violet;
-    height: 20rem;
+.float-right{
+    margin-right: 4.8rem;
 }
 
-.color-blue {
-    background: dodgerblue;
-}
-
-.color-red {
-    background: indianred;
-}
-
-.color-green {
-    background: #0ab45f;
-}
-
-.color-orange {
-    background: #ff6200;
+span {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 2rem;
+    line-height: 2.5rem;
 }
 
 button {
-    margin-top: 4rem;
-    border: white 1px solid;
     padding: 1rem;
-    background: #0ab45f;
+    width: 25%;
+    background: #059f5f;
     color: white;
+    border: solid white 1px;
+    margin-top: 2rem;
+    margin-left: 3rem;
 }
 
-button+button {
-    margin-left: 2%;
+.fa-download, .fa-info {
+    margin-right: 1rem;
 }
 
-.bouton{
+.icon {
+    position: relative;
+    font-size: 5rem;
+    margin-left: 8.8rem;
+    top: 10rem;
+}
+
+.text-icon {
+    display: block;
+    position: relative;
+    top: 12rem;
+    padding-left: 7rem;
+}
+
+.span-margin {
+    display: block;
+    position: relative;
+    top: 12rem;
+    padding-left: 6rem;
+}
+#social-menu {
+    padding-left: 5rem;
+}
+
+.blue {
+    background: dodgerblue;
+}
+
+.red {
+    background: indianred;
+}
+
+.green {
+    background: #059f5f;
+}
+
+.orange {
+    background: #ff6200;
+}
+
+#container-point {
     position: absolute;
-    border: 1px solid white;
-    border-radius: 24px;
-    width: 10%;
-    background: rgba(34, 34, 34, 0.38);
-    height: 7%;
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.point1 ,.point2, .point3 {
+    position: absolute;
     display: inline-block;
-    top: 29rem;
-    text-align: center;
-    left: 2%;
-}
-
-.bouton2 {
-    position: absolute;
-    border: 1px solid white;
+    z-index: 999;
+    background: white;
+    border: white 5px solid;
     border-radius: 24px;
-    width: 10%;
-    background: rgba(34, 34, 34, 0.38);
-    height: 7%;
-    display: inline-block;
-    top: 29rem;
-    text-align: center;
-    right: 12%;
-}
-
-.center-margin {
-    text-align: center;
-    margin-top: 12rem;
-    font-size: 1.4rem;
-}
-
-.fa-id-card {
-    position: absolute;
-    top: 8rem;
-    right: 75rem;
-    color: white;
-}
-
-.fa-battery-half {
-    position: absolute;
-    top: 30rem;
-    left: 27rem;
-    color: white;
-}
-
-.fa-book {
-    position: absolute;
-    top: 30rem;
-    left: 52rem;
-    color: white;
-}
-
-.fa-edit {
-    position: absolute;
-    top: 30rem;
-    left: 77rem;
-    color: white;
-}
-.fa-plus{
-    position: absolute;
-    top: 50rem;
-    left: 27rem;
-    color: white;
-}
-.fa-paper-plane {
-    position: absolute;
-    top: 50rem;
-    left: 53rem;
-    color: white;
-}
-.fa-desktop {
-    position: absolute;
-    top: 50rem;
-    left: 77rem;
-    color: white;
-}
-
-
-.fa-arrow-left, .fa-arrow-right {
-    padding-top: 1.5rem;
-}
-
-.point, .point1, .point2 {
-    top: 2%;
-    position: absolute;
-    width: 3%;
-    border: rgba(34, 34, 34, 0.38) 5px solid;
-    border-radius: 24px;
-    display: inline-block;
-    background: rgba(34, 34, 34, 0.38);
-    right: 12%;
+    width: 5%;
+    height: 5%;
+    right: 23rem;
+    top: 5rem;
 }
 .point1 {
-    right: 16%;
+    margin-right: 2rem;
+    border-color:  rgba(34, 34, 34, 0.52);
+    background: rgba(34, 34, 34, 0.52);
 }
 
 .point2 {
-    border: white 5px solid;
-    background: white;
-    right: 20%;
+    margin-right: 4rem;
 }
+
+.point3 {
+    border-color: rgba(34, 34, 34, 0.52);
+    background: rgba(34, 34, 34, 0.52);
+}
+
+#container-arrow-right{
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    border: 1px solid white;
+    background: rgba(34, 34, 34, 0.52);
+    border-radius: 24px;
+    right: 23rem;
+    top: 37rem;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+    margin-left: 1.5rem;
+    margin-top: 1.1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#container-arrow-left {
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    border: 1px solid white;
+    background: rgba(34, 34, 34, 0.52);
+    border-radius: 24px;
+    right: 59rem;
+    top: 37rem;
+}
+
+
 
