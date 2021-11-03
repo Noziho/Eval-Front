@@ -42,17 +42,24 @@ body {
 
 }
 
+.container-image {
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+
+
 img, .float-right{
     float: right;
 }
 img {
     position: relative;
-    right: 4.8rem;
+    right: 3.5rem;
     height: 69rem;
 }
 
 .float-right{
-    margin-right: 4.8rem;
+    margin-right: 3.5rem;
 }
 
 span {
@@ -117,67 +124,63 @@ button {
 }
 
 #container-point {
-    position: absolute;
-    float: right;
-    top: 0;
-    right: 0;
+    position: relative;
+    margin-left: 33rem;
+    width: 7rem;
+    height: 5rem;
 }
 
-.point1 ,.point2, .point3 {
-    position: absolute;
+
+.point3, .point2, .point1 {
+    position: relative;
     display: inline-block;
-    z-index: 999;
-    background: white;
-    border: white 5px solid;
+    border: rgba(34, 34, 34, 0.43) 4px solid;
     border-radius: 24px;
-    width: 5%;
-    height: 5%;
-    right: 23rem;
-    top: 5rem;
+    width: 1%;
+    height: 2%;
+    bottom: 68rem;
+    margin-left: 1rem;
+    background: rgba(34, 34, 34, 0.43);
 }
+
 .point1 {
-    margin-right: 2rem;
-    border-color:  rgba(34, 34, 34, 0.52);
-    background: rgba(34, 34, 34, 0.52);
+    border: white 4px solid;
+    background: white;
 }
 
-.point2 {
-    margin-right: 4rem;
-}
-
-.point3 {
-    border-color: rgba(34, 34, 34, 0.52);
-    background: rgba(34, 34, 34, 0.52);
-}
-
-#container-arrow-right{
-    position: absolute;
-    width: 3%;
-    height: 6%;
-    border: 1px solid white;
-    background: rgba(34, 34, 34, 0.52);
+#container-arrow-right {
+    position: relative;
+    float: right;
+    border: solid 1px white;
+    background: rgba(34, 34, 34, 0.43);
+    bottom: 35rem;
+    padding: 1.3rem;
     border-radius: 24px;
-    right: 23rem;
-    top: 37rem;
-}
-
-.fa-arrow-right, .fa-arrow-left {
-    margin-left: 1.5rem;
-    margin-top: 1.1rem;
+    font-size: 1.5rem;
     color: white;
-    font-size: 2rem;
 }
 
 #container-arrow-left {
-    position: absolute;
-    width: 3%;
-    height: 6%;
-    border: 1px solid white;
-    background: rgba(34, 34, 34, 0.52);
+    position: relative;
+    float: left;
+    border: solid 1px white;
+    background: rgba(34, 34, 34, 0.43);
+    padding: 1.3rem;
     border-radius: 24px;
-    right: 59rem;
-    top: 37rem;
+    font-size: 1.5rem;
+    color: white;
+    right: 35rem;
+    bottom: 40.3rem;
+
 }
+
+
+
+
+
+
+
+
 
 
 
